@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://babuprakash514781_db_user:<spanishclass>@portfolio.uh8jzxb.mongodb.net/?appName=portfolio';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://25bcab04_db_user:pNVCpvVIfZz6iEzX@portfolio-website.pm6av0c.mongodb.net/?appName=portfolio-website';
 
 mongoose.connect(MONGODB_URI)
     .then(() => {
