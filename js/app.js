@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Fetch Blog Posts
-    fetch('/api/posts')
+    fetch('https://your-app.onrender.com/api/contact', {...})
         .then(res => res.json())
         .then(data => {
             const blogGrid = document.getElementById('blog-posts');
